@@ -1,0 +1,465 @@
+html, body {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    letter-spacing: 2px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6, input {
+    text-transform: uppercase;
+}
+
+h2 {
+    letter-spacing: 4px;
+    border-bottom: 2px solid #000;
+    text-align: right;
+    width: 160px;
+    margin-left: 30%;
+}
+/*Header area START here*/
+header {
+    display: block;
+    color: #fff;
+}
+
+section {
+    padding-top: 4.3rem;
+}
+
+footer {
+    margin-top: 160px;
+    padding: 35px 0;
+    background-color: #e7cece;
+    color: #000;
+}
+
+/*Navbar styles area START here*/
+.navbar-brand {
+    text-decoration: none;
+    padding: 0;
+    font: normal 2.2em "Great Vibes", cursive;
+    display: block;
+    color: #000;
+}
+
+.navbar-brand:hover {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #4e555b;
+}
+
+.navbar-toggler {
+    border-radius: unset;
+}
+
+.navbar-collapse {
+    text-align: right;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    flex-grow: initial;
+}
+
+.nav-item {
+    justify-content: end;
+}
+
+.nav-link {
+    font-size: 1em;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.margin-5px {
+    margin: 5px;
+}
+
+.btn-with-toggler {
+    display: none;
+    justify-content: end;
+}
+
+.btn-outline-dark {
+    color: black;
+}
+
+.bg-light {
+    background-color: #fff;
+}
+
+.boxShadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+/*Navbar styles area END here*/
+
+/*Slider styles area START here*/
+.slide {
+    background-color: #000;
+}
+
+.slide img {
+    transition: opacity 1.5s;
+    opacity: 100%;
+}
+
+.slide__main-text {
+    position: relative;
+    text-align: center;
+}
+
+.main-text__front-text {
+    position: absolute;
+    margin-top: 26%;
+}
+
+.front-text__upper {
+    text-transform: uppercase;
+    font: normal 2.3vw "Roboto Light";
+    letter-spacing: 0.3vw;
+}
+
+.front-text__lower {
+    font: normal 3.3vw "Roboto Medium";
+    letter-spacing: 0.6vw;
+}
+
+.main-text__back-text {
+    position: absolute;
+    text-transform: uppercase;
+    font: bolder italic 12.5vw "Roboto Black";
+    opacity: 0.2;
+    margin-top: 22%;
+}
+
+.items-left {
+    left: 1rem;
+}
+
+.items-right {
+    right: 1rem;
+}
+/*Header area END here*/
+
+/*About-us area START here*/
+.caption {
+    min-width: 319px;
+    min-height: 89px;
+    background: url(../img/smears/smear-1.png) no-repeat left top;
+    padding: 1.5rem 0;
+    margin-bottom: 2.5rem;
+}
+
+.about-us__img {
+    text-align: center;
+}
+
+#woman-logo {
+    width: 100%;
+}
+
+.astudio__info {
+    margin-top: 100px;
+    font: normal 1rem "Roboto";
+    text-align: right;
+    text-align: -webkit-right;
+    text-align: -moz-right;
+    overflow-wrap: break-word;
+}
+
+.info__name {
+    font: normal 1.2rem "Roboto Medium";
+    text-transform: uppercase;
+}
+
+.link {
+    font-style: italic;
+    transition: color 500ms;
+    color: #c2a3a3;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #8f6565;
+}
+
+/*About-us area END here*/
+
+
+/*Price area END here*/
+#table1 {
+    background: url(../img/female-eye.png) no-repeat center center;
+}
+
+#table2 {
+    background: url(../img/women-hairstyling.png) no-repeat center center;
+}
+
+#table3 {
+    background: url(../img/lipstick.png) no-repeat center center;
+}
+
+#table4 {
+    background: url(../img/eyelashes.png) no-repeat center center;
+}
+
+.price__tables {
+    margin-top: 3rem;
+}
+
+.price__table {
+    border-left: 2px solid #000;
+}
+
+.table__name {
+    font: normal 1.8rem "Roboto Medium";
+    text-transform: none;
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
+
+.table__service-name {
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.table__service-price {
+    margin-left: 1.5rem;
+    font-family: "Roboto Medium";
+    font-size: 1.4rem;
+    color: #cc9999;
+}
+
+/*Price area END here*/
+
+
+/*Learning area START here*/
+.long-width {
+    margin-left: 13%;
+    width: 250px;
+}
+
+.learning__image {
+    width: 100%;
+}
+
+.learning__paragraph {
+    line-height: 20px;
+}
+
+.learning__button {
+    min-width: 250px;
+    height: 55px;
+    font-size: 1.2em;
+    background-color: #e7cece;
+    border-width: 0px;
+    float: right;
+    cursor: pointer;
+}
+.learning__button:hover {
+    opacity: .80;
+}
+/*Learning area END here*/
+
+
+/*Contacts area START here*/
+.contacts__map {
+    padding: 50px 0;
+}
+
+.contacts__icon {
+    width: 23px;
+    height: 23px;
+    margin: 10px;
+}
+
+.contacts__link {
+    color: #000;
+
+}
+.contacts__link:hover, .contacts__link:focus {
+    color: #8f6565;
+    text-decoration: none;
+}
+
+.social-links {
+    width: 38px;
+    height: 38px;
+    margin: 10px 0 10px;
+}
+.social-links:hover, social-links:focus {
+    transition: opacity 0.4s;
+    opacity: .60;
+}
+/*Contacts area END here*/
+
+
+/*Footer area START here*/
+.footer__copyright {
+    margin-top: 3%;
+}
+
+.footer__copyright p {
+    font-size: 0.8em;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.link-white {
+    color: #fff;
+    font-style: italic;
+    text-decoration: underline;
+}
+.link-white:hover {
+    transition: color 1000ms;
+    color: #444;
+}
+
+.margin-left-43px {
+    margin-left: 43px;
+}
+/*Footer area END here*/
+
+
+/*ModalWindow area START here*/
+.modal-content {
+    border-radius: 0;
+}
+
+.card {
+    border: none;
+}
+
+.none-markers {
+    list-style-type: none;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-primary {
+    color: #000;
+    background-color: #e7cece;
+    border-color: #e7cece;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #e8a2a2;
+    border-color: #e8a2a2;
+}
+.btn-primary:focus {
+    color: #fff;
+    background-color: #e8a2a2;
+    border-color: #e8a2a2;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #e8a2a2;
+    border-color: #e8a2a2;
+}
+
+.small-text {
+    color: gray;
+    font-size: 0.5em;
+    letter-spacing: normal;
+}
+
+
+/*ModalWindow area END here*/
+
+
+/*Media queries START here*/
+@media (max-width: 992px) {
+    .caption {
+        padding-bottom: 4rem;
+    }
+    .nav-item:first-child {
+        display: none;
+    }
+    .btn-with-toggler {
+        display: block;
+    }
+}
+
+@media (max-width: 751px) {
+    .main-text__back-text {
+        margin-top: 22%;
+    }
+
+    .head__text {
+        position: absolute;
+    }
+
+    .small-text {
+        display: none;
+    }
+}
+
+@media (max-width: 860px) {
+    .small-text {
+        font-size: 0.4em;
+    }
+}
+
+@media (max-width: 401px) {
+    .items-left {
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .items-right {
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .navbar-brand {
+        font-size: 1.8rem;
+    }
+
+    .slide img {
+        transition: opacity 3s;
+        opacity: .25;
+    }
+
+    .main-text__front-text {
+        margin-top: 30%;
+    }
+
+    .main-text__back-text {
+        margin-top: 30%;
+        font: bolder italic 22.5vw "Roboto Black";
+    }
+
+    .front-text__upper {
+        text-transform: uppercase;
+        font: normal 4vw "Roboto Light";
+        letter-spacing: 0.3vw;
+    }
+
+    .front-text__lower {
+        font: normal 6.2vw "Roboto Medium";
+        letter-spacing: 0.6vw;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 1000px;
+    }
+}
+/*Media queries END here*/
